@@ -5,8 +5,9 @@ def fizbuzz(number)
   if number % 3 == 0
     puts "Fizz"
   elsif number % 5 == 0
-    return "Buzz"
+    puts "Buzz"
   elsif number % 3 == 0 && number % 5 == 0
-    return "FizzBuzz"
-  else return nil
+    puts "FizzBuzz"
+  else 
+    puts nil
 end
