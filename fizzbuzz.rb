@@ -9,5 +9,4 @@ def fizbuzz(number)
   else number % 3 == 0 && number % 5 == 0
     return "FizzBuzz"
   else return nil
-    
 end
